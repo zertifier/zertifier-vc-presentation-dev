@@ -6,7 +6,7 @@
   "id": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main",
   "verificationMethod": [
     {
-      "id": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main#1234",
+      "id": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main#verification",
       "type": "JsonWebKey2020",
       "publicKeyJwk": {
         "kty": "RSA",
