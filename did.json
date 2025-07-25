@@ -18,6 +18,6 @@
     }
   ],
   "assertionMethod": [
-    "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main#1234"
+    "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main#verification"
   ]
 }
