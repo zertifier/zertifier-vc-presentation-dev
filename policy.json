@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/odrl.jsonld",
+    {
+      "gaia": "https://w3id.org/gaia-x/ontology#",
+      "vc": "https://www.w3.org/2018/credentials#"
+    }
+  ],
+  "@type": "Policy",
+  "permission": [{
+    "target": "gaia:ServiceOffering",
+    "action": "use",
+    "constraint": [
+      {
+        "leftOperand": "vc:verifiableCredential.vct",
+        "operator": "eq",
+        "rightOperand": "vc+sd-jwt",
+        "rightOperandReference": "vc:VerifiableCredential"
+      },
+      {
+        "leftOperand": "vc:verifiableCredential.issuer",
+        "operator": "oneOf",
+        "rightOperand": [
+          "did:example:companyA",
+          "did:example:companyB"
+        ],
+        "rightOperandReference": "vc:VerifiableCredential"
+      }
+    ]
+  }]
+}
