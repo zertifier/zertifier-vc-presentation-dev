@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:v1",
+  "verificationMethod": [
+    {
+      "@context": "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/",
+      "id": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:v1#JWK2020-X509-0",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:v1",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "kid": "Ti_PwZCPDJdOyy--QOQ7MzOyB9kMoyOI2kl60DHb6f0",
+        "n": "osodWuDw93rZTw1BDR4bfeEk6wzwLIlMKp1xSitxCEcIsnlS8OnVtJR8X5ZGFOutspBJWtcQVP497eDwQqjN2mzl9w2fusIDkNLBnEpeHgy2_JP3nGgKSIVQcLYL5QXV0lOvY4wgYuphLet4f0JuGD8edzYQheLJbsh1EF4VROiZMbsyENZ-567Uf6wBAULSuquADv_MaWwtrCsHC48hOh10k3y8NaIpMcDW9qP1lKr5Qgh24_9RQ1V9k8tHf6mYQquhgnmD2drWhYKpURDIFJiTH5FuMgFJiKjhS2O26WhAfmdLbvPj9781nh7nr4DD50VtcNe8JOtZe_dvH5PABiGulcs7MQ8f1SeKtvaGr_cpotsEOO2z-FyjwlSs03itzFM7i8pTXlFy10s0GRblLzL23fUA4cG-Txh4aAmpqp-EjMBuP0yE-mY-pvltd9dVE5tUBFkEf_Jmg_n1t7cQnF9zH4xUvOckcYWfk5lLLru9weR13aOXxJwQ8pkpIthulo5RTkmq7jrpDd_ISAe-AqYfmGYoSIITR-JDnVbax3U11kItJeOJOwV4FXxwM5e4PFxOfqlbDSzM3NpSyZKKbcgiw-hkVhvj1ki2hFPirH58Ldk48vdcSfH7QVrihFUkj1DBr7L7-xN2MB3xZ5gy-1FMt7p2DyP1xLU0OVwKvN8",
+        "e": "AQAB",
+        "alg": "RS256",
+        "x5u": "https://raw.githubusercontent.com/zertifier/zertifier-vc-presentation-dev/main/v1/x509CertificateChain.pem"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:v1#JWK2020-X509-0"
+  ]
+}
