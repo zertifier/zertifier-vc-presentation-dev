@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "type": [
+    "VerifiableCredential"
+  ],
+  "id": "https://github.com/zertifier/zertifier-vc-presentation-dev/blob/main/v1/lnr.json#subject",
+  "issuer": "did:web:gx-notary.arsys.es:v1",
+  "issuanceDate": "2025-08-08T08:56:25.261Z",
+  "credentialSubject": {
+    "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+    "type": "gx:legalRegistrationNumber",
+    "id": "https://github.com/zertifier/zertifier-vc-presentation-dev/blob/main/v1/lnr.json",
+    "gx:vatID": "ESB05303755",
+    "gx:vatID-countryCode": "ES"
+  },
+  "evidence": [
+    {
+      "gx:evidenceURL": "http://ec.europa.eu/taxation_customs/vies/services/checkVatService",
+      "gx:executionDate": "2025-08-08T08:56:25.261Z",
+      "gx:evidenceOf": "gx:vatID"
+    }
+  ],
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2025-08-08T08:56:25.271Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:gx-notary.arsys.es:v1#X509-JWK2020",
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..NL9h4dT5HU91Zd5Q6yBveM2Tci5m27ynFUZ-tTPYUmfcdc1O5kjF95_jhmjxPBbhm_oOO78DSZ1QajBm74krf2tiTuWKL-VLIWPEaFVS9Y1NLuuWIqV0neN3a0Nt2do94cT5Qlcg9EWgZRYAYweYw_RUeF2jjoriGNpD5YmQ2ZuMlBtV37RqVKI4XzdwmPuGjVdqNFBM7Bv4I5QO098R-ciBQe12IL5sNUjMKbkYvSNVO5tvmEcrkSqPKk4AdHSsr3tVMJ-AmoO82ePOGKOuzUtE914FAaBmnQINNuwH1A3gOrNX-mTOcA3yWsndrc1H_QMRYGgnwZJrVKE2A1jrjXGN3R9LERa58JBprR_NO6ap_kw9BQzdvc1hBdKBjV_P1NWkMruItIzF4-pPP4wG5abz7tp33m88iR-VlI6dAO2NlK3fhHoMGTWClS1k5a9Lc2pcGhsHc2mNq0tVCM7btlCMFbUrk-cnRtF0w6B8nF0E5DDIX3R3u8aHmNs36l-iTAnYlkC05u5m2TIS6tOlAUhJdsfUKAGu1dir7535xj2Ng98KtjR1mB_42WXw42ESRKCqdi9qEBqNr5a4Sq8GoZ95nOLK4d9kTKllpW_HRzfkjSMwMc3YFMOrV373WNXxeilkZA8mUB10sJbUpLKLkg2SBNzrVZssXHsEXyG5taQ"
+  }
+}
