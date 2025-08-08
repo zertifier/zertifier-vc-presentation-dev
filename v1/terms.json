@@ -2,10 +2,10 @@
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
     "https://w3id.org/security/suites/jws-2020/v1",
-    "https://registry.lab.gaia-x.eu/v1-staging/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+    "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
   ],
   "type": "VerifiableCredential",
-  "issuanceDate": "2025-08-08T09:00:57.313Z",
+  "issuanceDate": "2025-08-08T09:28:05.978Z",
   "credentialSubject": {
     "type": "gx:GaiaXTermsAndConditions",
     "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD).",
@@ -15,9 +15,9 @@
   "id": "https://github.com/zertifier/zertifier-vc-presentation-dev/blob/main/v1/terms.json",
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2025-08-08T11:00:57.313+02:00",
+    "created": "2025-08-08T11:28:05.978+02:00",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:v1#JWK2020-X509-0",
-    "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Et4-mUwP5cWELhrSzkvvP49t6Fo2UTiUbDx4H0SFgpLsRRayWQcW_gE1Di-qDLIKnOaO1fT5uK2lhaHo2p3_9ZmtxMMl7g4fSQj6sMbsvH39v1wEmFqJ3UgvcDvC5jF9GcTV3gjjkiYT5eBp8aq-2m_wYtPVDNqGHPsUax4TPDik_bpffcvnkeeag-Pi_C3rBrdIpIWgeNME-yQDe-0JP_1liSLIDs_dqFg4NRtqO-tnkVNHqJjKiR0r3KCkeCSjsjrn_UNHTRHj36TeM_wcDLIUCb1N6jIEAXXhx5RasrfHwkvBabu-UUhr528o8cBQWlthx3LPU_BVTGVr_6ttQHEQ1OvK_XeLyF1YILhcJbBZmG74m_LKFiOxwXrNEQqH_UfHFj_zBN3KDuaBj3VK1f1o_kgtxvRgzxg9a2tan8VIQV8EqISOQ_2JUawhgpq1WEvODEwCHTwemHuSf3ieLkNIOQaR8j_L2g7-1XKg2Ju919RFN8PFixloYfiVsCX6Fzz2UYYu9qf2LO2Fe4cpk8FgyIcxsnyXzmmxp-klVzax6G3u4jxHY05PEJZ5ciTDC3xcPn9bFxXOAry6SWKk3Z0lcS22SUpARr9B7ALVEiybDphT-c4-hpO6eM4rmshnSYD1ZUmF57r_cfm2nF4_6XpSfYRcGY_1tvkZ3JKYqRo"
+    "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..QUfVw3HXbhHPeIroWLCNWVcsdHujV5MOzX_qfoCn2s9LMiYGZKox973YKCSMptG1gxg4oDJAMDeWOVbTAbN9Fr_kfP3ZP-rPHEMX5GBJBKeQod19MP2ccQoW5HUcaU8ex1xiveWWxj7Yb7Qqcn3o2tR43rob-htzi0qOShAKPgIRKoyBAbhYk4AGnDNVpYfjiqWcH7WRcE-iTnjzVdeuO-9KFvp9SmyAllTbvYPJlTWW7fM8YwSUZhvBsGtjM0Q51pckGikPF_ltAtMABh6LoSgpUs-ChuoabB0qMA5B2oK38aws2KNHYMunFY_6A5RiYU_ADK2jgAwUdSWCQqUDMgU7KeCQOCizGpV6BRj7mPXiXIxaxqj3XVG9ebiZhRCf5UWJ7ThNzs2xGMUu9fiRgDqenld5NYj27ENbWscEtccZIOeM6VEBueevnLf850dZVq4Ki43LgKyBV6R8ti6OiD1vjpUpS-ZCRlPO88dv_Y_Aq2usoGVOBknoReTR9mzdslbA0SrqPtysBusGlRgvSIIS-iOamoZFCpQFPk73pQLkw9ucuCEtcLMwiUAIof1IIFjBn8W6k1gyrF8ACWAvWPKV-zZOmgpSwhqxqbN1CxpEP6C0gA89TI8xUpIz4Fc8aqhZq0sjL3iIZlDwz9U6fBL0MrKP5MZt8PWNcB_sP7c"
   }
 }
