@@ -9,7 +9,7 @@
   ],
   "id": "https://github.com/zertifier/zertifier-vc-presentation-dev/blob/main/v1/participant.json",
   "issuer": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:v1",
-  "issuanceDate": "2025-08-08T08:56:23.416Z",
+  "issuanceDate": "2025-08-08T09:00:53.961Z",
   "credentialSubject": {
     "id": "https://github.com/zertifier/zertifier-vc-presentation-dev/blob/main/v1/participant.json#subject",
     "type": "gx:LegalParticipant",
@@ -26,9 +26,9 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2025-08-08T10:56:23.416+02:00",
+    "created": "2025-08-08T11:00:53.962+02:00",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:v1#JWK2020-X509-0",
-    "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..oFJUobaFakZxwLbyU6mLjC-nNTzU6wmWKNrvebKYP9ifU5M0UUIAfdHowuqCzSGcC18M3R-DdBNKm2Z8dSpjMpTzJEiC90J4y6p4FZk4wYPMzFghBww3aUMYCGDF1lThnzXBvHQa78-oPR209ZyAtEgjD6vkUjR6yACVGxMfyUoh8kJxIpotzAOjvyguV7fA_VGjkRVOmsNdfWy_obsEsajAtM9PEocYVSt5kIV-ccfwsqKTY0hS2R7fmuMa9sV6_21HMhSH74qzQBUFvvKcyW6oZyHCz5Pe4_VQ5teuo1NlrWY8lGUVEY8vPgmwMD5juTCGBhw7wo1REmyY6_MmoDUsV4yT5fRP-u-SuFUazUC-KV3cv-mVjPGguCNiAzINGigUzNWA6CVIYKx0-6imH_9iQ9NNwc8IR_jtSkbVN0m0LiTjaROHkE5VQsjQ9jRa2z2yIq8nE-VqxDnFoL0YWn24b-cezOSuglEbBrjTsv2BGzCu34Fp021DoH34gJ0ySsrRbD8q2HKeoS1BQctJtWFD_rFLYziNz75rt5dwcjOCN3YYxRuDarZ25_vKjcY4x1PGK_2YjtTN9GSHu0QGbfCWj_dHf3IMcGGByyzhxdsI8FTWeHxgpFTee376exx-MO3auSXFz8l43akhik9tNpKjoMOMm7RmNZKqUqHjxE8"
+    "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Vj6SGEvDzcrMVI-dZZflP9WrPizjjSCpeupp_ifJLMj86W8N2rZlCGA9oOY80_ZW1z_0WlpT0dGYA78S8-RYXWiPVdfvXYiGsK4QvN5n_0T0q42CotMizcVZoLkI6oHWbH75FHXVC11ZfQFv3nMelt4Vg-0HzF5lS67yLS5vpOETU9NI5FvsqV9kcDtU3SaHqe6rOM0ZBB_ZivzOC93cq0EPlQz0osMztm50Tzy5ALV2BWhjmbB6oZbtTIR9NDDiUC3saGPwCw9A_3rj86f32Aw5bZOhWX2Gv85-BUvftRL_rsOBKsyLKkX-Xtfh9FnksQJEQLo7dDVY8k3OcqfVCWQl3TOVI1pkSiRv0hUq9N61zqDXelDp3xa-xzmQGilQjKytoYo1O2fF77LPB1d0B-nN0tKemQlDb7uFF6j4JUJe9p2onI8JEmBZq4G9kgYP-dKyqWBoPvm7uAzRVOm0ij6vaBTG5JTTPiZmMvB3QnnZdf_uXMXKayHk0SqgXPxjf-8rOnkPNqT6as5YpAwwHKgLaasTNjZ_lAXNbBie8U64R5Vm-zwI-V61zSH-SYEkLI24R6uo4hAAhehkdUBblNlGXkiMkQ6Xh-Fy5THP0JaVcaaGtiZv7OrcQCmzx_liSy9ksN3yeK9G_Gg3Jjou1p9LKPg55DSPvywHUaajwio"
   }
 }
