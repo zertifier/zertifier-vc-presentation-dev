@@ -1,0 +1,34 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://registry.lab.gaia-x.eu/v1-staging/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+  ],
+  "type": [
+    "VerifiableCredential"
+  ],
+  "id": "https://github.com/zertifier/zertifier-vc-presentation-dev/blob/main/v1/participant.json",
+  "issuer": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:v1",
+  "issuanceDate": "2025-08-08T08:56:23.416Z",
+  "credentialSubject": {
+    "id": "https://github.com/zertifier/zertifier-vc-presentation-dev/blob/main/v1/participant.json#subject",
+    "type": "gx:LegalParticipant",
+    "gx:legalName": "Zertifier",
+    "gx:legalRegistrationNumber": {
+      "id": "https://github.com/zertifier/zertifier-vc-presentation-dev/blob/main/v1/lnr.json#subject"
+    },
+    "gx:headquarterAddress": {
+      "gx:countrySubdivisionCode": "ES-ES"
+    },
+    "gx:legalAddress": {
+      "gx:countrySubdivisionCode": "ES-ES"
+    }
+  },
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2025-08-08T10:56:23.416+02:00",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:v1#JWK2020-X509-0",
+    "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..oFJUobaFakZxwLbyU6mLjC-nNTzU6wmWKNrvebKYP9ifU5M0UUIAfdHowuqCzSGcC18M3R-DdBNKm2Z8dSpjMpTzJEiC90J4y6p4FZk4wYPMzFghBww3aUMYCGDF1lThnzXBvHQa78-oPR209ZyAtEgjD6vkUjR6yACVGxMfyUoh8kJxIpotzAOjvyguV7fA_VGjkRVOmsNdfWy_obsEsajAtM9PEocYVSt5kIV-ccfwsqKTY0hS2R7fmuMa9sV6_21HMhSH74qzQBUFvvKcyW6oZyHCz5Pe4_VQ5teuo1NlrWY8lGUVEY8vPgmwMD5juTCGBhw7wo1REmyY6_MmoDUsV4yT5fRP-u-SuFUazUC-KV3cv-mVjPGguCNiAzINGigUzNWA6CVIYKx0-6imH_9iQ9NNwc8IR_jtSkbVN0m0LiTjaROHkE5VQsjQ9jRa2z2yIq8nE-VqxDnFoL0YWn24b-cezOSuglEbBrjTsv2BGzCu34Fp021DoH34gJ0ySsrRbD8q2HKeoS1BQctJtWFD_rFLYziNz75rt5dwcjOCN3YYxRuDarZ25_vKjcY4x1PGK_2YjtTN9GSHu0QGbfCWj_dHf3IMcGGByyzhxdsI8FTWeHxgpFTee376exx-MO3auSXFz8l43akhik9tNpKjoMOMm7RmNZKqUqHjxE8"
+  }
+}
