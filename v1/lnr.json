@@ -6,28 +6,28 @@
   "type": [
     "VerifiableCredential"
   ],
-  "id": "https://github.com/zertifier/zertifier-vc-presentation-dev/blob/main/v1/lnr.json#subject",
+  "id": "https://github.com/zertifier/zertifier-vc-presentation-dev/blob/main/v1/lnr.json",
   "issuer": "did:web:gx-notary.arsys.es:v1",
-  "issuanceDate": "2025-08-08T09:00:53.743Z",
+  "issuanceDate": "2025-08-08T09:28:00.229Z",
   "credentialSubject": {
     "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
     "type": "gx:legalRegistrationNumber",
-    "id": "https://github.com/zertifier/zertifier-vc-presentation-dev/blob/main/v1/lnr.json",
+    "id": "https://github.com/zertifier/zertifier-vc-presentation-dev/blob/main/v1/lnr.json#subject",
     "gx:vatID": "ESB05303755",
     "gx:vatID-countryCode": "ES"
   },
   "evidence": [
     {
       "gx:evidenceURL": "http://ec.europa.eu/taxation_customs/vies/services/checkVatService",
-      "gx:executionDate": "2025-08-08T09:00:53.743Z",
+      "gx:executionDate": "2025-08-08T09:28:00.229Z",
       "gx:evidenceOf": "gx:vatID"
     }
   ],
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2025-08-08T09:00:53.754Z",
+    "created": "2025-08-08T09:28:00.240Z",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:web:gx-notary.arsys.es:v1#X509-JWK2020",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..bxbuxM-GLtJ1FP3O5NOmEXfrupU5OPNVfKNDlR10q7_ZzYbEIgFIcifTOYI100_gMxXEezioc27QOaRS9mZ91peg7irNOiZXECvJokAyfNZHEvhAIS-01Os6qzSgfumqvcphg5rbstTrDwgFlPtDCRUdH171lETIi-XDvzTW47fL3KgysV9I25RC4LGdAQ8KMVtlK2g5-hFs08koWbUUgKFeWxfEIb219AwvuPG6fo2WyA-WUmyV4MuJbJBxawd5B4Oxiu1XSUtupJCU5GsxwDXUzK2pa9jmbU5-0OL3aaQgOR24fOx9kr1qGBQ1Vccal6zl9LyaDsrDcDAFkakJ1c_iP0qd6FJvMM3lURB1BgRMfwPumgjh7el051zRQEdZr7-Opk_D1zQvTrzXFdDg7NjJ880t6mlKSc7Pw9ud-DFK5TGFvCdLCPWDa9IQ8C846wqSZFeB4HcqYr2ng_A6EhAkXtkJ2Ueb2rzky3njuUQf9ohVSkQN7VwQ0Mann1ACXSxNSWTIQIQtcVhYsWohT71LFno-JUY6vE-uVzCZZV5BlkI7gT-ccyu0sGimfgUaIJz-dIwamLxyIpsMmYYtRpGj0Mhr66R1ngyYJAfYEZoryq4MILH7y13tkVOU91j0HPxgkmn8VDi30tmRSbuw8fGf_S8ZrXpYzYRf-m3UaNE"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..H5oazheCEJqB_mGroD8bpQ-DzMaiW3gesCZZi6xNHMOwVcb4KlaWpRV3jdMJ169oF_SrVcDdCu5aKCGPBhJhCB7UHA1T_4A7oFeJsL01y7CWF76bkXoNBxZAKcGwlckLkdI8U8x5xswBzC2PB-g8HV9ehqLFZClZgwu_0RfWbISeARNgbddWHErc5tOPh1TsMZlGjRGDBhddgeMaEtAPN0cM5DhQGLQWfkj5HvMHC5NTK7rx62obdzhHnWRq1T6ta_BBQ_nESOfwxfDaDoOpbn7YQqfHCUEU-hee9qghiA7ntd9_lZeN3evQLV4FL6C9bWynZgt4s8VASWynKo63fPV4W3jE9fvJrhU3dn1mPwLqgWNjJ93iMDwzwT2sR7xHlRVsnoh4G_ukfHFX-4ojX5jq0c2pw948sXQWV1eaEcUcVn425Y0ARsdrfYcNA5PBSOzNUnbKfxrwtjaptQUzOEtCdYFCrMkwFnNlnlzeMQmZCg-cIc7NxrwXZ0VlAMT9H_6w5lSN08WZ5Y61hlQiL8GJKgxdO6RSDec7I4otSuaMpbbUZYJteHJe9-EIs5Iv9B9VmoLpYhSWghgPjKH6VueN_R2bv6l-dE3r6HPjJcWFuPHbRBjaIwyEEZAW1XB2A_AfS_4GUeGDs_UAldKZKqM8U0dL9AQ4xsrT1eTb_rA"
   }
 }
