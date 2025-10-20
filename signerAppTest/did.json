@@ -3,24 +3,24 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
   ],
-  "id": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main",
+  "id": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest",
   "verificationMethod": [
     {
-      "id": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main#verification",
+      "id": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest#verification",
       "type": "JsonWebKey2020",
       "publicKeyJwk": {
         "kty": "RSA",
-        "n": "jhVIAjF70ApOA6XNa_ANDQV_gQ302XD57CDI7zzFCt9jBJdKC4VQPVpRK3YlUVO8T7eJM6NvQMqHa5iYiIZQpSag2zsx-s71-VercQE1EkycRxYOVPAwak_H9N8otyK3knf9-vfdf6Vngo88MoqmVLFRRlU7O69eDfi_WW55mFweiVNDm5ooD7q663QqJnVpxHMT1h1-iTyXmdZpRt8A-xIFblZ0uwIr-yQzIrU-pqkhqA2SYqKJKPigGfrvE4njS8cDnP1QPQ09rqFTV8NddjPUxVu8C0e360l-UKcO_nb5J-EBrH6HUzqJGAPQTXYg48vRvI7gS3mK75N0nuPAYQ",
+        "n": "wwg8B7oW0Tl0AMb0-HAEuii728w0KJ0WUdROTMOFOqbTSwFz0WPNOb9Ew6GxScHaYj1tE5t-_8bFzm5Z25VdVlk0qsrqg9s6kvCypcU_a7RAD2o6DzdLgo3-B320OqFWGcsUlVnAeXECFzW75fUc9j7QXo1eQIiLdFAAjzxHCbvvP8sAOlLXHkHFT0JI5dU5CUKp_AvGQespEEJpLBoTqUsjTDLbVWVfTLu2Wdu4_UmyNp9Iy-JexKAS69Gl6HWGLNfPXTLHCq5n98PultMNCVqLSvFWT3H3H3uN8oCLky1H4PGjS_F_4irB9VlY8-cR-z-rqgzKTS0cCZLYndPfmQ",
         "e": "AQAB",
         "alg": "RS256",
-        "x5u": "https://raw.githubusercontent.com/zertifier/zertifier-vc-presentation-dev/main/cert.pem"
+        "x5u": "https://raw.githubusercontent.com/zertifier/zertifier-vc-presentation-dev/main/signerAppTest/certificate.pem"
       }
     }
   ],
   "authentication": [
-    "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main#verification"
+    "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest#verification"
   ],
     "assertionMethod": [
-    "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main#verification"
+    "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest#verification"
   ]
 }
