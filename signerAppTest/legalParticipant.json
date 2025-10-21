@@ -8,7 +8,7 @@
     "VerifiableCredential"
   ],
   "id": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest:legalParticipant.json",
-  "issuer": "did:web:wizard.lab.gaia-x.eu:api:credentials:2d37wbGvQzbAQ84yRouh2m2vBKkN8s5AfH9Q75HZRCUQmJW7yAVSNKzjJj6gcjE2mDNDUHCichXWdMH3S2c8AaDLm3kXmf5R8DHsHZmBiiCwXZAjPQp9kDtqy5yXiTEBYgGT7pyQktrP3abz9zAzfJenq35HhFA1h16srfpfbEDrhpf7s8xd3QuBFsnsGtuoHAEvWQfvQu9zBmnVgTjvT1UHa5AaN9z2r73oVbHvM6piD3sjCEu245jdnScjkqHEcPJdEmZHZsU3MnpE7LDQZKyhwc99ZbYxTLmYvgL8TbYZTYPvg3i2HJ65j5ZZob3nWd4Grwvi8zLzQgRhkknzEh5uNgwf4Rkd7N17nCDtKMLxaMM82LaYQrpk1SbrPePBVyvYQQRWzfgxixKwG8QDXamHscDw3DbYxk6yBgHqv9YoiZMPFt1UUw8bnKCBusShnJtQMrmjsAnmmUozQxGiHT7g61Snh8wWrHvUKiuaSYBVi5FtA89enmtms7tjuEfCLWapsod5HJ46e83Ng183KtLyZf8fyTB4NpqwKXd7MJzvL3Vp2yUN4XmBeaprcjdqVVZxNhvrkMi2Yf5Exq6weWbqXuF8ZX7MXnH7vAY",
+  "issuer": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest",
   "issuanceDate": "2025-10-20T12:06:28.816Z",
   "credentialSubject": {
     "gx:legalName": "ZertiPuperti",
@@ -26,9 +26,9 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2025-10-21T08:13:25.614Z",
+    "created": "2025-10-21T10:11:46.990Z",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest",
-    "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..hvEgOhSyDPzISqyWaDTWEWsgwsh2CqxNidXUYktZ8kS8UO61dEhIg7aeq34ro9GMhAtgKpirUTvrolWQdN6TJXr8r5f4TGAc1V2zVk1fDzSD9deJ4f-hmOQ8lx0KkcGptgQmVkneQZGsOCjZl13iuANYltTrSIRmkCC_o_Yz8-SqURuJhNwkGTVb2Oa1CUGyfFcxb7iuu2D6H0cq_opmryxy-nBTFZ_7x8qnWwTw3tKW3p4iO__iyAXS2u3xv76_6igGHxM2wPQKnsLNrrGtU-hnWsnLt_SHd4OhkrifnilqL2yakysfVykLdhlGKVgFAyjat3mKBsYnV5h4Tk_B6Q"
+    "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..lDpyZYLc6raDDhHcpfq47FombgHbCMyZJ6lc9z0MpWzkyYUM2S078xnRgAhn47QpipAgZToLnI-MSCYsS0kVTL6st2zsLTGdlx5lsRl_qfqOsTC1d1nYfSDh3ROvsxF433dnD0Or-nJIgqY68pLKaRR8i1NMlIunupPhsj55aJyr8t36IWttL-G7BnJ15ZmHZLBDwHDmaikyvahk6RBEsWR3CyHOsyDjrI8Db2mTC-5oY45QjMTw72OE0pURkfPm6ZMAUHE-yIQ2cEoCj8Mb1vRa_lT08onSCeqY8sYIUNhaA61x-_Hs_btac9P5pJ0qtakyHoOSCrLv1BvaeNkBiA"
   }
 }
