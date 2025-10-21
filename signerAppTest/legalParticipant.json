@@ -26,9 +26,9 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2025-10-21T10:11:46.990Z",
+    "created": "2025-10-21T10:14:58.163Z",
     "proofPurpose": "assertionMethod",
-    "verificationMethod": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest",
+    "verificationMethod": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest#verification",
     "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..lDpyZYLc6raDDhHcpfq47FombgHbCMyZJ6lc9z0MpWzkyYUM2S078xnRgAhn47QpipAgZToLnI-MSCYsS0kVTL6st2zsLTGdlx5lsRl_qfqOsTC1d1nYfSDh3ROvsxF433dnD0Or-nJIgqY68pLKaRR8i1NMlIunupPhsj55aJyr8t36IWttL-G7BnJ15ZmHZLBDwHDmaikyvahk6RBEsWR3CyHOsyDjrI8Db2mTC-5oY45QjMTw72OE0pURkfPm6ZMAUHE-yIQ2cEoCj8Mb1vRa_lT08onSCeqY8sYIUNhaA61x-_Hs_btac9P5pJ0qtakyHoOSCrLv1BvaeNkBiA"
   }
 }
