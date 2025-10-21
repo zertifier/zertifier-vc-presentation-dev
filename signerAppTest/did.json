@@ -10,10 +10,10 @@
       "type": "JsonWebKey2020",
       "publicKeyJwk": {
         "kty": "RSA",
-        "n": "wwg8B7oW0Tl0AMb0-HAEuii728w0KJ0WUdROTMOFOqbTSwFz0WPNOb9Ew6GxScHaYj1tE5t-_8bFzm5Z25VdVlk0qsrqg9s6kvCypcU_a7RAD2o6DzdLgo3-B320OqFWGcsUlVnAeXECFzW75fUc9j7QXo1eQIiLdFAAjzxHCbvvP8sAOlLXHkHFT0JI5dU5CUKp_AvGQespEEJpLBoTqUsjTDLbVWVfTLu2Wdu4_UmyNp9Iy-JexKAS69Gl6HWGLNfPXTLHCq5n98PultMNCVqLSvFWT3H3H3uN8oCLky1H4PGjS_F_4irB9VlY8-cR-z-rqgzKTS0cCZLYndPfmQ",
+        "n": "ulJb_TJPgqA9Jn0xHR08l7l7PJgGZi38A7aJUUs6te_6tkpfE2AksJwSzrnI2t_aPIu5_p2gslEaGEUA3iZNv_UZQFaofA3k3T5hn2ILvcVXM8yzMQuyMfzP05BbKNLmUFZjUAnP1poAFtPd4PTdACSiTXqe2Anz1i41Uv5baJ3UjuI4Le4u7OBe7WOODV1qvG3FHeU-dRy2Cr6OuXZqHoT-j9oFPU4cfiGm5NMyISUeHEJpGryijQaKUXjHvGIY3M7gs1yRhTgjZYLNKpnWd5VUBf2_2v7NcyTupbBsBeGCWCvU0Q-KXq40yFaDwpTHrTlEf5kIdZeuJ5c9Is0nCQ",
         "e": "AQAB",
         "alg": "RS256",
-        "x5u": "https://raw.githubusercontent.com/zertifier/zertifier-vc-presentation-dev/main/signerAppTest/certificate.pem"
+        "x5u": "https://raw.githubusercontent.com/zertifier/zertifier-vc-presentation-dev/main/signerAppTest/cert.pem"
       }
     }
   ],
