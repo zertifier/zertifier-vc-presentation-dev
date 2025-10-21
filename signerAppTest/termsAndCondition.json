@@ -15,9 +15,9 @@
   "id": "https://raw.githubusercontent.com/zertifier/zertifier-vc-presentation-dev/main/signerAppTest/termsAndCondition.json",
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2025-10-21T12:58:46.873Z",
+    "created": "2025-10-21T13:01:57.096Z",
     "proofPurpose": "assertionMethod",
-    "verificationMethod": "https://raw.githubusercontent.com/zertifier/zertifier-vc-presentation-dev/main/signerAppTest/did.json#verification",
+    "verificationMethod": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest#verification",
     "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..sUgTZV3uDe6aMa6hhZT3yyXdeYBQli8OT2T_W9zsbK7iO-iGYTvlvXhxOHJbhu16Zz17AFtFSLOIgSrYLtbwHunwYQilOsE2yGblHi3rtPSoQZTFqpBmMbYh1_wORUf6Om7jP_ybKhLDPF_jBIPftgYDd2lTa5DEIxNWGzpPbItYG4f0yxUl0J2aOmxawjG_9mn7ZhcEQraJJ-AqipYisMy1Y7Rt49fy9imzrbye6NXcuNRSuYDdB9fGHD89u_v6ClNuChbELcMeOefOcyLr3-_SvuXEgVX9e3WU-CmJ8tWXFyTzxk2LMsgsvoSanLRwsKHPlurMXpzAwwS4szJKww"
   }
 }
