@@ -7,7 +7,7 @@
   "type": [
     "VerifiableCredential"
   ],
-  "id": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest:legalParticipant.json",
+  "id": "https://raw.githubusercontent.com/zertifier/zertifier-vc-presentation-dev/main/signerAppTest/legalParticipant.json",
   "issuer": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest",
   "issuanceDate": "2025-10-20T12:06:28.816Z",
   "credentialSubject": {
@@ -16,19 +16,19 @@
       "gx:countrySubdivisionCode": "ES-CT"
     },
     "gx:legalRegistrationNumber": {
-      "id": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest:legalRegistrationNumber.json#subject"
+      "id": "https://raw.githubusercontent.com/zertifier/zertifier-vc-presentation-dev/main/signerAppTest/legalRegistrationNumber.json#subject"
     },
     "gx:legalAddress": {
       "gx:countrySubdivisionCode": "ES-CT"
     },
     "type": "gx:LegalParticipant",
-    "id": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest:legalParticipant.json#subject"
+    "id": "https://raw.githubusercontent.com/zertifier/zertifier-vc-presentation-dev/main/signerAppTest/legalParticipant.json#subject"
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2025-10-21T10:14:58.163Z",
+    "created": "2025-10-21T10:37:12.550Z",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest#verification",
-    "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..lDpyZYLc6raDDhHcpfq47FombgHbCMyZJ6lc9z0MpWzkyYUM2S078xnRgAhn47QpipAgZToLnI-MSCYsS0kVTL6st2zsLTGdlx5lsRl_qfqOsTC1d1nYfSDh3ROvsxF433dnD0Or-nJIgqY68pLKaRR8i1NMlIunupPhsj55aJyr8t36IWttL-G7BnJ15ZmHZLBDwHDmaikyvahk6RBEsWR3CyHOsyDjrI8Db2mTC-5oY45QjMTw72OE0pURkfPm6ZMAUHE-yIQ2cEoCj8Mb1vRa_lT08onSCeqY8sYIUNhaA61x-_Hs_btac9P5pJ0qtakyHoOSCrLv1BvaeNkBiA"
+    "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..lkTi6OMja7LpLAqKHNPBqYiACEEDfrh8uOrzzbdgvKwfaBGMGJO68rAX1ciH4rI59BYZduaGjwpmsyMd7TgvkpkEPHjTqHKpubhgrj-Ewd2NrHLsbsTlq29Ikw0me3jW5f0u2e6jKsQSHXk2K20FsmCGT2bqfUxFcA9-AkOebCccaQjDZtngGhw3KxdRurwvYXIwGOBcdkJ4QeUJ7w4TwdEIu4rXyUKUhDN9aU0SMBYWuq5iM7y1vZO-jIFRvKtRuDKCOYb5k4fZM_I5Ox27TBw0ft0umjkRNNYA7tuAJxW5_UqXnn8e_CynKq3QXxY4oLOecSCmo1MXMwxkXiarzQ"
   }
 }
