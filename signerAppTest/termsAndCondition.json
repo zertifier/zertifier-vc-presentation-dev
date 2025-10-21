@@ -9,15 +9,15 @@
   "credentialSubject": {
     "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD).",
     "type": "gx:GaiaXTermsAndConditions",
-    "id": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest:termsAndCondition.json#subject"
+    "id": "https://raw.githubusercontent.com/zertifier/zertifier-vc-presentation-dev/main/signerAppTest/termsAndConditions.json#subject"
   },
   "issuer": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest",
-  "id": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest:termsAndCondition.json",
+  "id": "https://raw.githubusercontent.com/zertifier/zertifier-vc-presentation-dev/main/signerAppTest/termsAndCondition.json",
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2025-10-21T10:14:58.163Z",
+    "created": "2025-10-21T10:37:12.550Z",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest#verification",
-    "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..MlhMbvHh2HfQCHxESVqRIjazGIE1aJibBJzGWcKpdE4Q5Pjupjk_nVxFb83_dFstGR44WiKEqeya2Fa-QyIJWqFv-HQwlUkrs6-LaDVIrqAYPnCExhMqXZGWyRWc06vMaCsEyMiWhmPMrRrIGcmkGRKcwVHy7dcZOl-R-oN004PfM9Jt5LNzQfhBZvzTRm_Uf06f2ig0l_VoYpcx4wXIOmIHOxfwTfCN3Vh2PdIYaVtQO9d6qMqbAQLZ9Rvw89BR4dPOxA7tsatSoWBBCLUIjJu31vbLeuCc1jvlaftaw30TJwpQQFPEsL14YWxJI9LHqs3Au05Xe-uiKzwCDkcn4Q"
+    "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Dct-fNeetOAK37Hdk174lvuBiYVFUBKMRy8wlF0mMtIPT_7fhh-MKoa2xZ-lHgrZGH-yhwpUZ8SVjbr135OXrzNUE2TEIaIwHXzzceJHXwnNQzT5nSPFLv8p2gOnjYP70-eZmBDLQ8u9zz_HreRuzC-Ucqy-LhDL2kNxB8LCntwrpiTEYOLAF75U8RsR3VFENLQipfTB9uNTLjL7ryD0W5hEGX4fRu16OUEGpyI8u4wCuQmxpqQtL3BCdH8c9MzMlV-kap8U9bs3u2_wrA5tWiB9JfeAQFnHmtphPY7xIb2bLOcH4dDoxd0MrBmtsSv_pJo18NTcIE0I07etyswmUQ"
   }
 }
