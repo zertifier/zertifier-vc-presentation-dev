@@ -28,7 +28,7 @@
         "type": "JsonWebSignature2020",
         "created": "2025-11-03T12:28:42.019Z",
         "proofPurpose": "assertionMethod",
-        "verificationMethod": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest:guillem",
+        "verificationMethod": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest:guillem#verification",
         "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..U9Ly50ST_RfVaIxOw4_iIyMUeb0qT_gPP2AeGu1LAleVt0EUfNn3ZgwqKE2sy3S5KxGJqOHnzlg4HIKTsbEn0tyWFCgedQDqfAzXwumDaazhazv6TLGadDWR-KK5hkIxWQuUPLt7_wqiDJsx_PDF-tgaHjTs1pYXL8B73pgtezmZRjm5V1s5DnyrkJmkYAr21U3xpb5BE4WRHtpcuEHu45N9KDXfXfpbiTuWLFcmgqizcRzrGT-EJ9YIE32wTu8RB3f-3ZXy2A1AzNG6LSNzbfs63T-AkMkuokh33mrvUqdiqtgboegXgCBA4qf5WQuit4FtKCIYxd3fZXNqm9Y3cQ"
     }
 }
