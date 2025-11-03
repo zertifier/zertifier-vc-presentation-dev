@@ -1,23 +1,23 @@
 {
-    "@context": [
-        "https://www.w3.org/2018/credentials/v1",
-        "https://w3id.org/security/suites/jws-2020/v1",
-        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
-    ],
-    "type": "VerifiableCredential",
-    "credentialSubject": {
-        "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD).",
-        "type": "gx:GaiaXTermsAndConditions",
-        "id": "https://raw.githubusercontent.com/zertifier/zertifier-vc-presentation-dev/main/signerAppTest/guillem/termsAndConditions.json#subject"
-    },
-    "id": "https://raw.githubusercontent.com/zertifier/zertifier-vc-presentation-dev/main/signerAppTest/guillem/termsAndConditions.json",
-    "issuer": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest:guillem",
-    "issuanceDate": "2025-11-03T12:28:22.604Z",
-    "proof": {
-        "type": "JsonWebSignature2020",
-        "created": "2025-11-03T12:28:42.397Z",
-        "proofPurpose": "assertionMethod",
-        "verificationMethod": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest:guillem#verification",
-        "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..O1Wiv3Pd_AERErufMrH9MX_SJG1co89jYgS5Vk8Vh9MG6puvYm9jop1lEA6T53NSRlE6AtjHUtU9cl13hj4ho9bb5Frn0xiKUGTG5988GKZCB9A5dAG8RMOiej8coj9dQ1lC-7eb03Yyq9M8IeBKdCyXN9R5R07a250QkSjZdaFgjYRv3jkjPlbo5L7Lej9F3KnZX1uG6ovuRQT2hv20WoyQEb64RSGHFeUo-aQ0nHGNk3GFT4d3NUKomEZlqt5Nypd92CLH3mdWMcVwsTkXogCW_eyJ-nhSMvXny10fwpRY8MPslOtqdM6Q8bVTFAS-HGiPrhH1cfoeVUjQiqbD1Q"
-    }
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+  ],
+  "type": "VerifiableCredential",
+  "credentialSubject": {
+    "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD).",
+    "type": "gx:GaiaXTermsAndConditions",
+    "id": "https://raw.githubusercontent.com/zertifier/zertifier-vc-presentation-dev/main/signerAppTest/guillem/termsAndCondition.json#subject"
+  },
+  "id": "https://raw.githubusercontent.com/zertifier/zertifier-vc-presentation-dev/main/signerAppTest/guillem/termsAndCondition.json",
+  "issuer": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest:guillem",
+  "issuanceDate": "2025-11-03T14:37:49.722Z",
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2025-11-03T14:37:52.590Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest:guillem#verification",
+    "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..L3ql-O9ggcaugKkD0ZS_q4mGHHzUNc8MQRivfl5Z82-O1Cm0Xali0py_T66Uecr33Vy5h_M_SWh2gxVa0VHRx8fHpsad7y4HWGDhS8vmxsh0H0t-zplEVLTgUd3ZMvlxIYb1PWJgDtdaC5vuV8IS2ea-ubZNn0MeKNGNmpnDouHGZVh04qOkqOlCBFX2a3EYl096ru60e0Z-zt1voHcXYCvw265G93srkIqzBOWOxlM97ruA3BZOeXtou_lhIacfyq8LJ9aqL0KAZYrWt_kQu5w_B_Iu6OkafF0734Vytl_YBGNS-pxi4FUOU1ZjoajWNYtl4JTfQZ-x6yqN-dsseA"
+  }
 }
