@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
+  ],
+  "id": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest:guillem",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest:guillem#verification",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "z26XjczIX6s5ht_jFuF3h0aptM5w4AomYpk612e4nf-5Xo4v1zdT3AFDvTcP7XxaDB6CMA7Vm_sbMIhWJ1jICfdmOH10IFcs3ssLn_gVnOt_nc3m1QW34tu-xHPEUtEyGB2lZNzhikJ2k2N48B-XeN6GxlrzoxfnduV223PLTVaPblecI90yu8a5ZycE46WjMhjOvU1EGd2ykU7e_tuZXY2e28w93FFTuLVGrjG5EPUN2d_zs6-Gta-XpQTMVUoZ5TAKJQAHHC7BYpkTrgbBCKNfPRtgPJhhUSEoVJk8Eqb3zdJFHLxzsQNg9VupQwBxZ4z7-jx7Sj9hUMSbBzwr2Q",
+        "e": "AQAB",
+        "alg": "RS256",
+        "x5u": "https://raw.githubusercontent.com/zertifier/zertifier-vc-presentation-dev/main/signerAppTest/guillem/cert.pem"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest:guillem#verification"
+  ],
+    "assertionMethod": [
+    "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest:guillem#verification"
+  ]
+}
