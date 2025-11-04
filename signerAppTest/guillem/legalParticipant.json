@@ -1,34 +1,34 @@
 {
-    "@context": [
-        "https://www.w3.org/2018/credentials/v1",
-        "https://w3id.org/security/suites/jws-2020/v1",
-        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
-    ],
-    "type": [
-        "VerifiableCredential"
-    ],
-    "credentialSubject": {
-        "type": "gx:LegalParticipant",
-        "gx:legalName": "Test",
-        "gx:headquarterAddress": {
-            "gx:countrySubdivisionCode": "ES-CT"
-        },
-        "gx:legalAddress": {
-            "gx:countrySubdivisionCode": "ES-CT"
-        },
-        "gx:legalRegistrationNumber": {
-            "id": "https://raw.githubusercontent.com/zertifier/zertifier-vc-presentation-dev/main/signerAppTest/guillem/legalParticipant.json#subject"
-        },
-        "id": "https://raw.githubusercontent.com/zertifier/zertifier-vc-presentation-dev/main/signerAppTest/guillem/legalParticipant.json#subject"
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+  ],
+  "type": [
+    "VerifiableCredential"
+  ],
+  "credentialSubject": {
+    "type": "gx:LegalParticipant",
+    "gx:legalName": "Test",
+    "gx:headquarterAddress": {
+      "gx:countrySubdivisionCode": "ES-CT"
     },
-    "id": "https://raw.githubusercontent.com/zertifier/zertifier-vc-presentation-dev/main/signerAppTest/guillem/legalParticipant.json",
-    "issuer": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest:guillem",
-    "issuanceDate": "2025-11-04T10:24:09.415Z",
-    "proof": {
-        "type": "JsonWebSignature2020",
-        "created": "2025-11-04T10:24:27.105Z",
-        "proofPurpose": "assertionMethod",
-        "verificationMethod": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest:guillem#verification",
-        "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..XGqCeITncT7Teu3wGIUNOFG8_7KTypMvOgCetLoqfdyhD2JQORKvMcVmNH_da5Ycch_q-JxZ2cpjLonHiLfVwWS3NrTwfv6bG0hnu2xCQojzeKRk4oL1wd5uKI8KAt3OK6yzhx6nUnMIvMdG5bkMSaqKpGcYMldPG5k9GfUcQmdMPo97VQA3K7NraZu9nEuzotrl9a5dkwm96uNTp_RXZNJn9lQ8itW9FYeDSCN94wTePznSgpBdVf7cdqxr7UdJWf-iPj4gxu1eZ8e6ld7cl33Bspx_IRWtPyfPMOP76QOVHM3K_zavWL3UWylEAfmOc50se0CH_j2yeOG8hdMPsw"
-    }
+    "gx:legalAddress": {
+      "gx:countrySubdivisionCode": "ES-CT"
+    },
+    "gx:legalRegistrationNumber": {
+      "id": "https://raw.githubusercontent.com/zertifier/zertifier-vc-presentation-dev/main/signerAppTest/legalRegistrationNumber.json#subject"
+    },
+    "id": "https://raw.githubusercontent.com/zertifier/zertifier-vc-presentation-dev/main/signerAppTest/guillem/legalParticipant.json#subject"
+  },
+  "id": "https://raw.githubusercontent.com/zertifier/zertifier-vc-presentation-dev/main/signerAppTest/guillem/legalParticipant.json",
+  "issuer": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest:guillem",
+  "issuanceDate": "2025-11-04T10:34:19.661Z",
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2025-11-04T10:34:22.757Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:raw.githubusercontent.com:zertifier:zertifier-vc-presentation-dev:main:signerAppTest:guillem#verification",
+    "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ewReKMrawKsFerZ__TX6KaVJzNQ7zqPS5RzoXUnL_5IlfJ-L0NiBJQ-iMlNd5TyrppTTWQnf4n2m9eSf1ulT8I42cnBYExfJB6dHH-jkBo4oDejU-s9Tb6D5bWqprnxtREMWcgSM5UNJYeKMNXywOrhvueaDdxrXzBArHlXP5_bZtgdvMg7sOkFsyHvBBWPxCUylyjtnKsNwYW2PArg_nyLfZ3FMN1mQEhKO2lCN3TfUDl3BysqzD4OacjILrmc-T1vhsIV_QcOqTKHBGUDRlTpKX86W98qHIAX-Fe2H7uhpTX8xJvEuCV_blJ5txk4k8kP1DZGYxiO0akar_sy9Fg"
+  }
 }
