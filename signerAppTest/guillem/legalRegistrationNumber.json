@@ -8,7 +8,7 @@
   ],
   "id": "https://raw.githubusercontent.com/zertifier/zertifier-vc-presentation-dev/main/signerAppTest/legalRegistrationNumber.json",
   "issuer": "did:web:registration.lab.gaia-x.eu:v1-staging",
-  "issuanceDate": "2025-11-04T10:24:52.362Z",
+  "issuanceDate": "2025-11-04T10:33:58.853Z",
   "credentialSubject": {
     "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
     "type": "gx:legalRegistrationNumber",
@@ -19,15 +19,15 @@
   "evidence": [
     {
       "gx:evidenceURL": "http://ec.europa.eu/taxation_customs/vies/services/checkVatService",
-      "gx:executionDate": "2025-11-04T10:24:52.362Z",
+      "gx:executionDate": "2025-11-04T10:33:58.853Z",
       "gx:evidenceOf": "gx:vatID"
     }
   ],
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2025-11-04T10:24:52.374Z",
+    "created": "2025-11-04T10:33:58.863Z",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:web:registration.lab.gaia-x.eu:v1-staging#X509-JWK2020",
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..dcH_t-oBCBc8LR1tbiXFCRYYB7x0u63Bi0lHQRJ-6IJ_N68FyCCNzXaWWY87uUFaVYietaSo1J5iZ6BczIh5IVFPyS5S6nI8bZWWFz8FifJFGiiMrZIisHJSMvEteD0bV0dj9SSeLNssosExnG9DQK502A8hgz3uhP73CCDbbPjNboTJSDC2p-7ep7CgKWJ6ZegliQ0gpmEYbdfGr5NlW9aq1FqQIR7uq4UvyDOL7wYozcOKWdN5R6yhu8KgbAT_8ROJrFhbrtdFMaJDGbhdJjjeCYFvleQBWFHIHtoV5bjohOdRJe2lWsgqqdw14R2xwCEUeKV1Zkb-Q6ZyyDPgKw"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..qfn-_0U7ga4dSQMalD33S3Gvdgbsis71k_GW0th2AC-8gQ5j03SDhF19TzjTC4Epi_Bi-_tIIoynzUFzkDd85PxgttpLE9LRaE6WBzduL2NMq8E1p1Ff6SUxAuSNiGs8lVE0vsgznX4LYqVKlOO9Zl-WSi5XIDoBpqrPRYmkAjNv-XhbMKxm7ixYwpqip_QJDjJpJAB7Vrnygr_RAEahlEUwa455B_bsTbFRI-jqowbXNBmJy3HI3ZZSEc11Jp24y8xP3BxPMTftNV2EnzHfuLN5MMCJ_ImESnr-30fEitkXTHy0seugEPafkr7dWCRSCYNE7OqSocfwUfIHro06Bg"
   }
 }
